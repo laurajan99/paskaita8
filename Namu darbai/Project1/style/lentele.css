@@ -1,0 +1,90 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+p{
+    color: black;
+}
+.landing-page{
+    margin: auto;
+    width: 95%;
+/*    height: 90vh;*/
+/*    border: 1px solid red;*/
+    background-color: lightgray;
+}
+.box-left{
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+/*    border: 2px solid red;*/
+}
+.box-right{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
+p{
+   content:  '\f00c';
+    font-family:monospace;
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 30px;
+}
+.text1-content p:nth-child(odd){
+    background-color: skyblue;}
+.text1-content p:nth-child(2){
+    background-color: lightyellow;
+}
+.text2-content p:nth-child(2){
+    background-color: skyblue;
+}
+.text2-content p:nth-child(1){
+    background-color: lightyellow;
+}
+.text2-content p:nth-child(3){
+    background-color: lightyellow;
+}
